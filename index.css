@@ -1,0 +1,62 @@
+
+body {
+    background: linear-gradient(135deg, #0a0a0a, #01294d, #025c80);
+    height: 100vh;
+    margin: 0;
+  }
+
+#frase {
+    width: 300px;
+    display: flexbox;
+    align-items: center;
+    margin: auto;
+    border-radius:7px;
+    box-shadow: 5px 5px 5px #161616;
+    background-color: white;
+}
+
+#titulo1 {
+    text-align: center;
+    color: rgb(253, 251, 253);
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6), -2px -2px 4px rgba(0,0,0,0.4);
+    margin-bottom: 40px;
+}
+
+#titulo2{
+    text-align: center;
+    color: rgb(253, 251, 253);
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6), -2px -2px 4px rgba(0,0,0,0.4);
+    margin-top: 60px;
+}
+
+
+.container {
+    backdrop-filter: blur(15px);
+    background: rgba(24, 24, 24, 0.2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5), 0 0 20px rgba(0, 255, 255, 0.4), 0 0 30px rgba(0, 255, 255, 0.3);
+    width: 400px;
+    text-align: center;
+  }
+  
+  #generar {
+    width: 200px; /* Ajusta el tamaño del botón */
+    height: 50px;
+    font-size: 16px;
+  }
+
+  #generatedPassword {
+    color:aquamarine;
+    margin-top: 40px;
+    font-size: x-large;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6), -2px -2px 4px rgba(0,0,0,0.4);
+  }
+
+  .btn {
+    border-radius:7px;
+    box-shadow: 5px 5px 5px #161616;
+    transition: transform 0.3s ease-in-out;
+  }
